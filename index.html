@@ -1,5 +1,52 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fraser Simpson — Photography</title><link rel="stylesheet" href="style.css"></head><body>
-<aside class="sidebar"><a class="name" href="#music">Fraser Simpson</a><nav><a href="#music" data-section="music">Music</a><a href="#people" data-section="people">People</a><a href="#personal" data-section="personal">Personal</a></nav><nav class="secondary"><a href="#about" data-section="about">About</a></nav></aside>
-<main class="stage"><section class="viewer" id="viewer"><button class="hit prev" id="prev" aria-label="Previous photograph"></button><figure><img id="photo" alt=""></figure><button class="hit next" id="next" aria-label="Next photograph"></button><div class="counter" id="counter"></div></section><section class="about" id="aboutPanel" hidden><div><h1>Fraser Simpson</h1><p>Photography.</p></div></section></main>
-<button class="mobile-menu" id="mobileMenu">Menu</button><div class="mobile-nav" id="mobileNav" hidden><a href="#music" data-section="music">Music</a><a href="#people" data-section="people">People</a><a href="#personal" data-section="personal">Personal</a><a href="#about" data-section="about">About</a></div>
-<script src="photos.js"></script><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fraser Simpson — Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="name" href="#music">Fraser Simpson</a>
+    <nav>
+      <a href="#music" data-section="music">Music</a>
+      <a href="#people" data-section="people">People</a>
+      <a href="#personal" data-section="personal">Personal</a>
+    </nav>
+    <nav class="secondary"><a href="#about" data-section="about">About</a></nav>
+  </aside>
+
+  <main class="stage">
+    <section class="viewer" id="viewer">
+      <button class="hit prev" id="prev" aria-label="Previous photograph"></button>
+      <figure>
+        <img id="photo" alt="">
+        <figcaption id="caption" hidden></figcaption>
+      </figure>
+      <button class="hit next" id="next" aria-label="Next photograph"></button>
+      <div class="counter" id="counter"></div>
+    </section>
+
+    <section class="about" id="aboutPanel" hidden>
+      <div class="about-copy">
+        <!-- EDIT YOUR ABOUT TEXT HERE -->
+        <h1>Fraser Simpson</h1>
+        <p>Photography.</p>
+        <!-- You can add more <p>...</p> paragraphs here. -->
+      </div>
+    </section>
+  </main>
+
+  <button class="mobile-menu" id="mobileMenu">Menu</button>
+  <div class="mobile-nav" id="mobileNav" hidden>
+    <a href="#music" data-section="music">Music</a>
+    <a href="#people" data-section="people">People</a>
+    <a href="#personal" data-section="personal">Personal</a>
+    <a href="#about" data-section="about">About</a>
+  </div>
+
+  <script src="photos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

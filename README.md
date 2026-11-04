@@ -1,11 +1,19 @@
-# Site26 photography portfolio
+# Site26 portfolio v3
 
-Static HTML/CSS/JS portfolio ready for GitHub Pages.
+## Editing photo order and captions
+Open `photos.js` in any text editor.
 
-The site uses web-optimised JPEG copies. Your original upload has not been modified.
+Each photograph now looks like:
 
-## Publish
-Upload the contents of this folder to a GitHub repository, then enable GitHub Pages for the main branch/root.
+    { src: "images/personal/01.jpg", caption: "" },
 
-## Edit photo order
-The image lists are in `photos.js`.
+- Reorder these whole lines to change the order on the website.
+- Put text between the caption quotes to show a caption, e.g. `caption: "Dad, 2016"`.
+- Leave the caption empty for no caption.
+
+## Editing About
+Open `index.html` and find `EDIT YOUR ABOUT TEXT HERE`.
+Replace the heading/paragraphs below it with your own text.
+
+## Publishing
+Commit the changed files in GitHub Desktop, then Push origin. GitHub Pages will update from `main` / root.
