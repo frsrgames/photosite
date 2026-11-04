@@ -12,7 +12,7 @@
 */
 window.PHOTOS = {
   music: [
-    { src: "images/music/01.jpg", caption: "" },
+    { src: "images/music/01.jpg", caption: "Tony Jaguar (Edinburgh, 2019)" },
     { src: "images/music/02.jpg", caption: "" },
     { src: "images/music/03.jpg", caption: "" },
     { src: "images/music/04.jpg", caption: "" },
